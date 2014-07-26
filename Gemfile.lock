@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     coderay (1.1.0)
     columnize (0.8.9)
@@ -8,6 +9,7 @@ GEM
       debugger-ruby_core_source (~> 1.3.5)
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.3.5)
+    highline (1.6.21)
     method_source (0.8.2)
     pry (0.10.0)
       coderay (~> 1.1.0)
@@ -22,5 +24,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  highline
   pry
   pry-debugger

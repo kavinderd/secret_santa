@@ -1,5 +1,3 @@
-require 'pry'
-require 'pry-debugger'
 class SecretSanta
   attr_reader :records, :assignments
 
@@ -27,11 +25,6 @@ class SecretSanta
   	  @records.delete_at(index)
   	  @assignments << [r, match]
     end
-  end
-
-  private
-
-  def get
   end
 
 end
