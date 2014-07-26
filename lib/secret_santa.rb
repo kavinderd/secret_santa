@@ -9,6 +9,7 @@ class SecretSanta
   def input_record(first_name:, last_name: , email:)
   	raise DuplicateEmailException if @records.flatten.include?(email)
   	@records << [first_name, last_name, email]
+    puts "current records\n #{@records}"
   end
 
   def assign_santas
